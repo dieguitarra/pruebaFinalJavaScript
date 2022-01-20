@@ -1,0 +1,35 @@
+seguro hay forma de cargar con el bucle for, o lo que podes hacer es primero es
+20:37
+pedir los datos que ya tenes en el storage
+20:37
+guardarlos en una variable
+20:37
+y ahi agregar lo nuevo
+20:38
+podrias tener un array con los talleres y le haces push a ese array y lo volves a guardar por cada taller creado
+20:41
+la logica de eso podria ser asi:
+if(localstorage.get("talleres")){
+let array = []
+array.push(localsttorage.get("...")
+y aca renderizas los talleres con el array actualizado
+localstorage.set(talleres actualizado)
+}else{
+el flujo normal hasta ahora
+creas el localstorage porque no lo encontro en el if
+}
+20:43
+y si lo de las alertas lo ideal seria sacarlas y renderizar en pantalla, ese alertify puede servir no lo conozco bien. Sino tambien hay uno que se llama popup.js si no me equivoco que puede servir para eso
+
+
+Nono no lo copies tal cual porque lo escribí en pseudocodigo para que te dé una idea de la estructura
+00:12
+El if ese lo que haría sería buscar que haya un localstorage con ese nombre que le pasas por el método get
+00:12
+Si lo encuentra tendrías que traerlo de nuevo y actualizarlo así no lo reemplazas
+00:13
+Y si no lo encuentra iría al else, en ese caso lo setearias de cero como venís haciendo en tu codigo
+00:14
+Y lo de los alerts lo que me contas de alerify está bueno, lo de renderizar en pantalla me refiero a que aparezca en pantalla un texto que diga que se registró correcto o lo que necesites decirle al usuario modificando el Dom sería eso
+
+https://flaviocopes.com/how-to-disable-button-javascript/
